@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+:root {
+  --color-ink: #1c1f24;
+  --color-slate: #2c333c;
+  --color-slate-light: #3d4653;
+  --color-cream: #efe9df;
+  --color-paper: #faf7f2;
+  --color-mist: #e6e1d8;
+  --color-stone: #6b6459;
+  --color-copper: #b5551f;
+  --color-copper-light: #d98a52;
+  --color-copper-dark: #8a3f16;
+}
+
+@theme inline {
+  --color-ink: var(--color-ink);
+  --color-slate: var(--color-slate);
+  --color-slate-light: var(--color-slate-light);
+  --color-cream: var(--color-cream);
+  --color-paper: var(--color-paper);
+  --color-mist: var(--color-mist);
+  --color-stone: var(--color-stone);
+  --color-copper: var(--color-copper);
+  --color-copper-light: var(--color-copper-light);
+  --color-copper-dark: var(--color-copper-dark);
+
+  --font-display: var(--font-fraunces);
+  --font-body: var(--font-inter);
+}
+
+html {
+  /*
+   * Intentionally NOT smooth: pinned/sticky sections (Verwandlung-Scrolly)
+   * are several viewport heights tall; a smooth-scrolled anchor jump through
+   * that range makes the page look frozen for a few seconds. Instant jumps
+   * are the reliable choice here.
+   */
+  scroll-behavior: auto;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display), system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--color-copper);
+  color: var(--color-paper);
+}
+
+.eyebrow {
+  font-family: var(--font-body), system-ui, sans-serif;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
