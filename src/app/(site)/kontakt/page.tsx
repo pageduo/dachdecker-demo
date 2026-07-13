@@ -8,7 +8,7 @@ import { company, locations } from "@/lib/content";
 import { img } from "@/lib/images";
 
 export const metadata: Metadata = {
-  title: "Über uns & Kontakt — TRAVEDACH Demo",
+  title: "Über uns & Kontakt | TRAVEDACH Demo",
 };
 
 export default function KontaktPage() {
@@ -18,7 +18,7 @@ export default function KontaktPage() {
     <>
       <PageHero
         eyebrow="// Über uns & Kontakt"
-        title={`${company.fullName} — seit ${company.founded} in ${company.city} verwurzelt.`}
+        title={`${company.fullName}, seit ${company.founded} in ${company.city} verwurzelt.`}
         subline={company.subline}
       />
 

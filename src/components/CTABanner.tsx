@@ -12,7 +12,7 @@ export default function CTABanner() {
             Undichte Stelle, Sturmschaden oder geplante Sanierung?
           </h2>
           <p className="mt-5 text-base leading-relaxed text-paper/85 sm:text-lg">
-            Rufen Sie an oder schreiben Sie uns — wir melden uns in der Regel innerhalb eines
+            Rufen Sie an oder schreiben Sie uns, wir melden uns in der Regel innerhalb eines
             Werktags mit einem Termin vor Ort.
           </p>
           <div className="mt-9 flex flex-wrap justify-center gap-4">

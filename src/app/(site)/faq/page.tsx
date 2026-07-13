@@ -4,7 +4,7 @@ import FAQAccordion from "@/components/FAQAccordion";
 import { img } from "@/lib/images";
 
 export const metadata: Metadata = {
-  title: "FAQ — TRAVEDACH Demo",
+  title: "FAQ | TRAVEDACH Demo",
 };
 
 export default function FAQPage() {

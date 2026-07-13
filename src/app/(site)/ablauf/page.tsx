@@ -6,7 +6,7 @@ import { processSteps } from "@/lib/content";
 import { img } from "@/lib/images";
 
 export const metadata: Metadata = {
-  title: "Ablauf — TRAVEDACH Demo",
+  title: "Ablauf | TRAVEDACH Demo",
 };
 
 export default function AblaufPage() {

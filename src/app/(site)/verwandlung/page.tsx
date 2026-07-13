@@ -7,7 +7,7 @@ import { img } from "@/lib/images";
 import { videos } from "@/lib/videos";
 
 export const metadata: Metadata = {
-  title: "Die Verwandlung — TRAVEDACH Demo",
+  title: "Die Verwandlung | TRAVEDACH Demo",
 };
 
 export default function VerwandlungPage() {

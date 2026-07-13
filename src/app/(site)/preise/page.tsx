@@ -6,7 +6,7 @@ import { pricingTiers } from "@/lib/content";
 import { img } from "@/lib/images";
 
 export const metadata: Metadata = {
-  title: "Preise — TRAVEDACH Demo",
+  title: "Preise | TRAVEDACH Demo",
 };
 
 export default function PreisePage() {
@@ -15,7 +15,7 @@ export default function PreisePage() {
       <PageHero
         eyebrow="// Preise & Pakete"
         title="Transparente Preise, klare Festpreisangebote."
-        subline="Jede Sanierung ist anders — hier finden Sie eine erste Orientierung, das genaue Angebot folgt immer nach einem kostenlosen Vor-Ort-Termin."
+        subline="Jede Sanierung ist anders. Hier finden Sie eine erste Orientierung, das genaue Angebot folgt immer nach einem kostenlosen Vor-Ort-Termin."
         image={img.services.flachdach}
         imageAlt="Flachdach eines Gewerbegebäudes mit Lüftungstechnik aus der Vogelperspektive"
       />

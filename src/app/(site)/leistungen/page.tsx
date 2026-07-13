@@ -8,7 +8,7 @@ import { services } from "@/lib/content";
 import { img } from "@/lib/images";
 
 export const metadata: Metadata = {
-  title: "Leistungen — TRAVEDACH Demo",
+  title: "Leistungen | TRAVEDACH Demo",
 };
 
 const serviceImages: Record<string, string> = {
@@ -25,7 +25,7 @@ export default function LeistungenPage() {
     <>
       <PageHero
         eyebrow="// Leistungen"
-        title="Alles rund ums Dach — aus einer Hand."
+        title="Alles rund ums Dach, aus einer Hand."
         subline="Vom Notdienst bis zur Komplettsanierung: unsere Kolonnen decken alle Gewerke am und auf dem Dach ab."
         image={img.leistungenHero}
         imageAlt="Detailaufnahme einer sauberen Flachdachkante vor blauem Himmel"

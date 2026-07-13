@@ -11,7 +11,7 @@ export default function HomeTimelapseSection() {
             Dächer, wie man sie sonst nicht sieht.
           </h2>
           <p className="mt-4 max-w-xl text-sm leading-relaxed text-stone">
-            Ein Blick von oben zeigt, worauf es bei einem guten Dach ankommt — von der
+            Ein Blick von oben zeigt, worauf es bei einem guten Dach ankommt, von der
             Eindeckung bis zur Photovoltaik-Anlage.
           </p>
         </Reveal>

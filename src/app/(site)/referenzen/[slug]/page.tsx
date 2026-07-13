@@ -20,7 +20,7 @@ export async function generateMetadata({
   const { slug } = await params;
   const project = galleryProjects.find((p) => p.slug === slug);
   if (!project) return {};
-  return { title: `${project.title} — TRAVEDACH Referenzen (Demo)` };
+  return { title: `${project.title} | TRAVEDACH Referenzen (Demo)` };
 }
 
 export default async function ProjectPage({
@@ -66,7 +66,7 @@ export default async function ProjectPage({
           <Reveal delay={0.1} className="mt-14">
             <p className="eyebrow mb-4 text-copper-dark">{"// Vorher / Nachher"}</p>
             <p className="mb-4 text-sm leading-relaxed text-stone">
-              Dasselbe Haus, unverändert — einzig die Dacheindeckung wird komplett erneuert.
+              Dasselbe Haus, unverändert: einzig die Dacheindeckung wird komplett erneuert.
               Schematische Darstellung, ziehen Sie den Regler.
             </p>
             <CompareSlider

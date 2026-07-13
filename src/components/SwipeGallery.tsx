@@ -54,7 +54,7 @@ export default function SwipeGallery({
         >
           <Image
             src={images[index]}
-            alt={`${alt} — Bild ${index + 1} von ${images.length}`}
+            alt={`${alt}, Bild ${index + 1} von ${images.length}`}
             fill
             draggable={false}
             sizes={sizes}

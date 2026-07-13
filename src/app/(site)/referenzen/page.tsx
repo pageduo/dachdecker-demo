@@ -4,7 +4,7 @@ import GalleryGrid from "@/components/GalleryGrid";
 import { img } from "@/lib/images";
 
 export const metadata: Metadata = {
-  title: "Referenzen — TRAVEDACH Demo",
+  title: "Referenzen | TRAVEDACH Demo",
 };
 
 export default function ReferenzenPage() {
@@ -13,7 +13,7 @@ export default function ReferenzenPage() {
       <PageHero
         eyebrow="// Referenzen"
         title="Ausgewählte Projekte aus Lübeck und Umgebung."
-        subline="Von der Altstadt-Sanierung bis zur Photovoltaik-Anlage auf dem Gewerbedach — ein Einblick in unsere Arbeit."
+        subline="Von der Altstadt-Sanierung bis zur Photovoltaik-Anlage auf dem Gewerbedach: ein Einblick in unsere Arbeit."
         image={img.referenzenHero}
         imageAlt="Luftaufnahme eines frisch eingedeckten Steildachs"
       />

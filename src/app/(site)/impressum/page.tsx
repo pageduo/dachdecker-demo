@@ -3,7 +3,7 @@ import LegalHero from "@/components/LegalHero";
 import { company } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Impressum (Platzhalter) — TRAVEDACH Demo",
+  title: "Impressum (Platzhalter) | TRAVEDACH Demo",
 };
 
 export default function ImpressumPage() {

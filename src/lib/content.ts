@@ -6,7 +6,7 @@ export const company = {
   claim: "Handwerk mit Höhe.",
   subline:
     "Steildach, Flachdach und energetische Dachsanierung für Privat- und Gewerbeimmobilien in Lübeck und der gesamten Hansestadt-Region.",
-  usp: "Meisterbetrieb mit eigener Zimmerei- und Klempnerkolonne — alles aus einer Hand, von der Notreparatur bis zur Komplettsanierung.",
+  usp: "Meisterbetrieb mit eigener Zimmerei- und Klempnerkolonne, alles aus einer Hand, von der Notreparatur bis zur Komplettsanierung.",
   phone: "+49 451 288 41 90",
   phoneHref: "tel:+494512884190",
   email: "anfrage@travedach-demo.de",
@@ -51,7 +51,7 @@ export const services = [
     key: "steildach",
     title: "Steildach-Eindeckung",
     description:
-      "Neueindeckung und Reparatur mit Tondachziegeln, Schiefer oder Betonstein — fachgerecht verlegt nach den Regeln des Dachdeckerhandwerks.",
+      "Neueindeckung und Reparatur mit Tondachziegeln, Schiefer oder Betonstein, fachgerecht verlegt nach den Regeln des Dachdeckerhandwerks.",
   },
   {
     key: "flachdach",
@@ -69,13 +69,13 @@ export const services = [
     key: "daemmung",
     title: "Dachdämmung & energetische Sanierung",
     description:
-      "Auf- und Zwischensparrendämmung nach GEG-Standard — spürbar weniger Heizkosten und förderfähig nach BEG.",
+      "Auf- und Zwischensparrendämmung nach GEG-Standard: spürbar weniger Heizkosten und förderfähig nach BEG.",
   },
   {
     key: "solar",
     title: "Photovoltaik auf dem Dach",
     description:
-      "Statikprüfung, Unterkonstruktion und Montage von PV-Anlagen — in Kombination mit der Dacheindeckung aus einer Hand geplant.",
+      "Statikprüfung, Unterkonstruktion und Montage von PV-Anlagen, in Kombination mit der Dacheindeckung aus einer Hand geplant.",
   },
   {
     key: "klempner",
@@ -94,7 +94,7 @@ export const processSteps = [
   {
     title: "Angebot & Planung",
     description:
-      "Sie erhalten ein transparentes Festpreisangebot inklusive Material- und Zeitplan — auf Wunsch mit Fördermittel-Beratung für die Dämmung.",
+      "Sie erhalten ein transparentes Festpreisangebot inklusive Material- und Zeitplan, auf Wunsch mit Fördermittel-Beratung für die Dämmung.",
   },
   {
     title: "Ausführung auf dem Dach",
@@ -115,7 +115,7 @@ export const transformStages = [
     key: "eindeckung",
     title: "Neue Dacheindeckung",
     description:
-      "Alte, poröse Ziegel raus — neue Tondachziegel, Schiefer oder Betonstein sorgen für dichten, langlebigen Witterungsschutz.",
+      "Alte, poröse Ziegel raus. Neue Tondachziegel, Schiefer oder Betonstein sorgen für dichten, langlebigen Witterungsschutz.",
   },
   {
     key: "gauben",
@@ -174,7 +174,7 @@ export const galleryProjects = [
     category: "Steildach",
     year: 2023,
     description:
-      "Neueindeckung eines Einfamilienhauses nahe der Ostseeküste mit sturmsicheren Bitumenschindeln und verstärkter Windsogsicherung — wichtig in der exponierten Lage an der Trave-Mündung.",
+      "Neueindeckung eines Einfamilienhauses nahe der Ostseeküste mit sturmsicheren Bitumenschindeln und verstärkter Windsogsicherung, wichtig in der exponierten Lage an der Trave-Mündung.",
     hasBeforeAfter: false,
   },
   {
@@ -192,7 +192,7 @@ export const galleryProjects = [
     category: "Gauben & Dachfenster",
     year: 2022,
     description:
-      "Einbau einer Schleppgaube und zweier Dachflächenfenster in ein Altbau-Staffelgeschoss — mehr Wohnraum und Tageslicht unterm Dach, ohne den Charakter der Fassade zu verändern.",
+      "Einbau einer Schleppgaube und zweier Dachflächenfenster in ein Altbau-Staffelgeschoss: mehr Wohnraum und Tageslicht unterm Dach, ohne den Charakter der Fassade zu verändern.",
     hasBeforeAfter: false,
   },
   {
@@ -211,25 +211,25 @@ export const galleryProjects = [
 // Vogelperspektive durch verschiedene Dachlandschaften und -leistungen, statt
 // eines einzelnen (unrealistischen) Vorher-Nachher-Zeitraffers.
 export const aerialShowcaseStages = [
-  { label: "Ihr Dach aus der Vogelperspektive", time: "0:00", description: "Ein sauber eingedecktes Steildach — Maßstab für jede unserer Sanierungen." },
+  { label: "Ihr Dach aus der Vogelperspektive", time: "0:00", description: "Ein sauber eingedecktes Steildach, Maßstab für jede unserer Sanierungen." },
   { label: "Dachlandschaften der Region", time: "0:08", description: "Von der Hansestadt bis ins Umland: gewachsene Dachlandschaften, die wir pflegen und erneuern." },
-  { label: "Jedes Detail zählt", time: "0:16", description: "Ob Tonziegel oder Schindel — die Eindeckung entscheidet über Dichtigkeit und Lebensdauer." },
+  { label: "Jedes Detail zählt", time: "0:16", description: "Ob Tonziegel oder Schindel: Die Eindeckung entscheidet über Dichtigkeit und Lebensdauer." },
   { label: "Photovoltaik mitgedacht", time: "0:24", description: "Solarmodule werden direkt bei der Neueindeckung statisch und optisch integriert." },
-  { label: "Ergebnis, das überzeugt", time: "0:32", description: "Ein Dach, das aus jeder Perspektive überzeugt — auch von oben." },
+  { label: "Ergebnis, das überzeugt", time: "0:32", description: "Ein Dach, das aus jeder Perspektive überzeugt, auch von oben." },
 ] as const;
 
 export const pricingTiers = [
   {
     title: "Notdienst & Reparatur",
     price: "ab 280 €",
-    description: "Sturmschäden, undichte Stellen und kleinere Reparaturen — meist innerhalb von 48 Stunden vor Ort.",
+    description: "Sturmschäden, undichte Stellen und kleinere Reparaturen, meist innerhalb von 48 Stunden vor Ort.",
     features: ["Schadensaufnahme & Soforthilfe", "Ziegel- und Rinnenreparatur", "Notabdichtung bei Sturmschäden"],
     highlighted: false,
   },
   {
     title: "Dachsanierung Komplett",
     price: "ab 180 €/m²",
-    description: "Neueindeckung inklusive Dämmung, Lattung und Entwässerung — mit Festpreisgarantie nach Vor-Ort-Termin.",
+    description: "Neueindeckung inklusive Dämmung, Lattung und Entwässerung, mit Festpreisgarantie nach Vor-Ort-Termin.",
     features: ["Neueindeckung & Dämmung", "Dachrinnen & Klempnerarbeiten", "Fördermittel-Beratung (BEG)"],
     highlighted: true,
   },
@@ -293,7 +293,7 @@ export const team = [
     key: "meike",
     name: "Meike Voss",
     role: "Kundenberatung & Büro",
-    bio: "Erster Ansprechpartner am Telefon — koordiniert Termine, Angebote und Rückfragen.",
+    bio: "Erster Ansprechpartner am Telefon, koordiniert Termine, Angebote und Rückfragen.",
   },
 ] as const;
 
@@ -318,7 +318,7 @@ export const testimonials = [
   },
   {
     quote:
-      "Die PV-Anlage wurde direkt mit der neuen Eindeckung geplant — so mussten wir nicht zweimal ein Gerüst bezahlen.",
+      "Die PV-Anlage wurde direkt mit der neuen Eindeckung geplant, so mussten wir nicht zweimal ein Gerüst bezahlen.",
     name: "M. Kruse",
     context: "Photovoltaik & Eindeckung, Herrenwyk",
   },
@@ -343,7 +343,7 @@ export const faqs = [
   {
     question: "Kann eine Photovoltaik-Anlage direkt mit der Dachsanierung kombiniert werden?",
     answer:
-      "Ja, das empfehlen wir sogar ausdrücklich — Statik, Unterkonstruktion und Dachhaken werden dann direkt bei der Neueindeckung mitgeplant und montiert.",
+      "Ja, das empfehlen wir sogar ausdrücklich. Statik, Unterkonstruktion und Dachhaken werden dann direkt bei der Neueindeckung mitgeplant und montiert.",
   },
   {
     question: "In welchem Umkreis von Lübeck sind Sie tätig?",
@@ -353,7 +353,7 @@ export const faqs = [
   {
     question: "Bieten Sie auch Wartungsverträge für Dach und Dachrinnen an?",
     answer:
-      "Ja, wir bieten jährliche Wartungsverträge inklusive Dachrinnenreinigung und Sichtprüfung an — besonders sinnvoll nach Sturmsaisons im Herbst.",
+      "Ja, wir bieten jährliche Wartungsverträge inklusive Dachrinnenreinigung und Sichtprüfung an, besonders sinnvoll nach Sturmsaisons im Herbst.",
   },
 ] as const;
 
@@ -382,7 +382,7 @@ export const locations = [
     isMain: true,
     mapQuery: "Beckergrube 42, 23552 Lübeck",
     description:
-      "Unser Hauptsitz mit Meisterbüro, Materiallager und Fuhrpark liegt zwischen den Giebelhäusern der Lübecker Altstadt — hier laufen alle Projekte zusammen.",
+      "Unser Hauptsitz mit Meisterbüro, Materiallager und Fuhrpark liegt zwischen den Giebelhäusern der Lübecker Altstadt. Hier laufen alle Projekte zusammen.",
   },
   {
     name: "Standort Travemünde",

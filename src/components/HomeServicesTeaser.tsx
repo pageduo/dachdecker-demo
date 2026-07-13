@@ -21,7 +21,7 @@ export default function HomeServicesTeaser() {
           <div>
             <p className="eyebrow text-copper-dark">{"// Leistungen"}</p>
             <h2 className="mt-4 max-w-2xl font-display text-3xl font-medium leading-tight text-ink sm:text-5xl">
-              Alles rund ums Dach — aus einer Hand.
+              Alles rund ums Dach, aus einer Hand.
             </h2>
           </div>
           <Link

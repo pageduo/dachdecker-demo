@@ -4,7 +4,7 @@ import StandorteMap from "@/components/StandorteMap";
 import { img } from "@/lib/images";
 
 export const metadata: Metadata = {
-  title: "Standorte — TRAVEDACH Demo",
+  title: "Standorte | TRAVEDACH Demo",
 };
 
 export default function StandortePage() {
@@ -12,7 +12,7 @@ export default function StandortePage() {
     <>
       <PageHero
         eyebrow="// Einzugsgebiet"
-        title="Zuhause in Lübeck — im Einsatz an der ganzen Küste."
+        title="Zuhause in Lübeck, im Einsatz an der ganzen Küste."
         subline="Wählen Sie einen Standort und laden Sie die interaktive Karte, um sich die Anfahrt anzusehen."
         image={img.locations[0]}
         imageAlt="Historische Backsteingebäude in der Lübecker Altstadt"

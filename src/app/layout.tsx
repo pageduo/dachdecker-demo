@@ -13,7 +13,7 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
-const title = "TRAVEDACH Bedachungen — Handwerk mit Höhe | Demo-Website";
+const title = "TRAVEDACH Bedachungen: Handwerk mit Höhe | Demo-Website";
 const description =
   "Demo-Website für einen Dachdeckerbetrieb: Steildach, Flachdach, energetische Dachsanierung und Klempnerarbeiten in Lübeck und der Hansestadt-Region. Diese Seite ist eine Agentur-Demo und kein echtes Unternehmen.";
 

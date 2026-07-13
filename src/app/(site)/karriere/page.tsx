@@ -6,7 +6,7 @@ import { company, jobs } from "@/lib/content";
 import { img } from "@/lib/images";
 
 export const metadata: Metadata = {
-  title: "Karriere — TRAVEDACH Demo",
+  title: "Karriere | TRAVEDACH Demo",
 };
 
 export default function KarrierePage() {
@@ -39,7 +39,7 @@ export default function KarrierePage() {
               <p className="mt-4 max-w-md text-base leading-relaxed text-stone">
                 Bei {company.name} arbeiten Sie in festen Kolonnen mit erfahrenen Kolleg:innen,
                 moderner Ausrüstung und einem Meister, der selbst noch mit aufs Dach steigt.
-                Ob Berufseinstieg, Ausbildung oder Quereinstieg — wir bilden weiter, statt nur
+                Ob Berufseinstieg, Ausbildung oder Quereinstieg: Wir bilden weiter, statt nur
                 einzustellen.
               </p>
             </div>

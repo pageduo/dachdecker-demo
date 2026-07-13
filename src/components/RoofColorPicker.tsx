@@ -10,31 +10,31 @@ const tileColors = [
     key: "ziegelrot",
     label: "Ziegelrot",
     color: "#a8422a",
-    description: "Warmes, klassisches Terrakotta — der zeitlose Standard unter den Dachziegeln.",
+    description: "Warmes, klassisches Terrakotta, der zeitlose Standard unter den Dachziegeln.",
   },
   {
     key: "anthrazit",
     label: "Anthrazit",
     color: "#33363a",
-    description: "Tiefes, mattes Anthrazit — modern und dezent, passend zu fast jeder Fassade.",
+    description: "Tiefes, mattes Anthrazit, modern und dezent, passend zu fast jeder Fassade.",
   },
   {
     key: "schiefergrau",
     label: "Schiefergrau",
     color: "#6b7280",
-    description: "Kühles Schiefergrau — klassisch norddeutsch und unaufdringlich elegant.",
+    description: "Kühles Schiefergrau, klassisch norddeutsch und unaufdringlich elegant.",
   },
   {
     key: "kupferpatina",
     label: "Kupferpatina",
     color: "#5c8a72",
-    description: "Grünlich patiniertes Kupfer-Finish — ungewöhnlich und langlebig im Charakter.",
+    description: "Grünlich patiniertes Kupfer-Finish, ungewöhnlich und langlebig im Charakter.",
   },
   {
     key: "moosgruen",
     label: "Moosgrün",
     color: "#556b3f",
-    description: "Erdiges Moosgrün — fügt sich besonders harmonisch in grüne Umgebungen ein.",
+    description: "Erdiges Moosgrün, fügt sich besonders harmonisch in grüne Umgebungen ein.",
   },
 ] as const;
 
@@ -71,7 +71,7 @@ export default function RoofColorPicker() {
             </h3>
             <p className="mt-3 max-w-md text-sm leading-relaxed text-paper/60">
               Dasselbe Haus, {tileColors.length} Farbtöne. Wählen Sie einen Ton und sehen Sie, wie
-              er wirkt — die echten Musterziegel bringen wir zum Termin mit.
+              er wirkt: die echten Musterziegel bringen wir zum Termin mit.
             </p>
 
             <div className="mt-6 flex flex-wrap gap-3">
@@ -119,7 +119,7 @@ export default function RoofColorPicker() {
               Dieses Dach anfragen →
             </Link>
             <p className="mt-4 text-xs leading-relaxed text-paper/40">
-              Illustrative Vorschau an einem Musterhaus — wir bringen die echten Musterziegel zum
+              Illustrative Vorschau an einem Musterhaus. Wir bringen die echten Musterziegel zum
               kostenlosen Vor-Ort-Termin mit.
             </p>
           </div>
