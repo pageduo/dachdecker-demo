@@ -16,11 +16,11 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <StatsCounter />
       <HomeServicesTeaser />
       <HomeTransformTeaser />
       <HomeTimelapseSection />
       <HomeReferenzenTeaser />
+      <StatsCounter />
       <Testimonials />
       <CTABanner />
     </>
