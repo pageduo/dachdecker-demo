@@ -1,85 +1,70 @@
 import type { Metadata } from "next";
 import LegalHero from "@/components/LegalHero";
-import { company } from "@/lib/content";
+import DemoHinweis from "@/components/DemoHinweis";
+import { PAGEDUO_EMAIL, PAGEDUO_NAME, PAGEDUO_PARTNERS, PAGEDUO_URL } from "@/lib/pageduo";
 
 export const metadata: Metadata = {
-  title: "Impressum (Platzhalter) | TRAVEDACH Demo",
+  title: "Impressum | TRAVEDACH – Demo",
 };
 
+/*
+ * Das Impressum nennt den Anbieter dieser Website, und das ist nicht der
+ * dargestellte Betrieb - den gibt es nicht. Anbieter ist die Agentur, die
+ * die Demo betreibt.
+ *
+ * Die frueheren Abschnitte (fiktive Anschrift, USt-IdNr., Eintragung in der
+ * Handwerksrolle der Handwerkskammer Luebeck, EU-Streitschlichtung) sind
+ * ersatzlos entfallen. Sie waren als Platzhalter gekennzeichnet, aber eine
+ * erfundene Eintragung in einer echten Handwerkskammer bleibt eine falsche
+ * Angabe mit dem Namen einer echten Koerperschaft darin - und "Meisterbetrieb"
+ * ist eine gefuehrte Bezeichnung, keine Dekoration.
+ */
 export default function ImpressumPage() {
   return (
     <>
       <LegalHero eyebrow="// Rechtliches" title="Impressum" />
       <div className="mx-auto max-w-3xl px-5 py-16 sm:px-8">
+        <DemoHinweis className="mb-10" />
+
         <div className="flex flex-col gap-10 text-sm leading-relaxed text-stone">
           <section>
             <h2 className="mb-3 font-display text-xl font-medium text-ink">
-              Angaben gemäß § 5 DDG (Platzhalter)
+              Anbieter dieser Website
             </h2>
             <p>
-              {company.fullName} (fiktiv)
+              {PAGEDUO_NAME} – Webdesign, Hamburg
               <br />
-              {company.address.street}
+              Vertreten durch die Gesellschafter {PAGEDUO_PARTNERS.replace(", ", " und ")}
               <br />
-              {company.address.zip} {company.address.city}
-              <br />
-              Deutschland
+              E-Mail:{" "}
+              <a
+                href={`mailto:${PAGEDUO_EMAIL}`}
+                className="underline underline-offset-2 transition-colors hover:text-ink"
+              >
+                {PAGEDUO_EMAIL}
+              </a>
             </p>
           </section>
 
           <section>
-            <h2 className="mb-3 font-display text-xl font-medium text-ink">Kontakt</h2>
-            <p>
-              Telefon: {company.phone}
-              <br />
-              E-Mail: {company.email}
-            </p>
-          </section>
-
-          <section>
-            <h2 className="mb-3 font-display text-xl font-medium text-ink">Vertretungsberechtigt</h2>
-            <p>Torben Wiechmann (fiktive Geschäftsführung, Platzhaltername)</p>
-          </section>
-
-          <section>
-            <h2 className="mb-3 font-display text-xl font-medium text-ink">
-              Umsatzsteuer-Identifikationsnummer
-            </h2>
-            <p>DE 000 000 000 (Platzhalter, keine reale USt-IdNr.)</p>
-          </section>
-
-          <section>
-            <h2 className="mb-3 font-display text-xl font-medium text-ink">
-              Handwerkskammer-Zugehörigkeit
-            </h2>
-            <p>
-              Eingetragen in der Handwerksrolle der Handwerkskammer Lübeck (fiktiv, Platzhalter für
-              eine reale Betriebsnummer).
-            </p>
-          </section>
-
-          <section>
-            <h2 className="mb-3 font-display text-xl font-medium text-ink">
-              Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
-            </h2>
-            <p>Torben Wiechmann, Anschrift wie oben (Platzhalter)</p>
-          </section>
-
-          <section>
-            <h2 className="mb-3 font-display text-xl font-medium text-ink">EU-Streitschlichtung</h2>
-            <p>
-              Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS)
-              bereit. Da dieses Unternehmen fiktiv ist, existiert hierzu kein realer Verweis. Eine
-              echte Kundenseite würde an dieser Stelle auf ec.europa.eu/consumers/odr verlinken.
-            </p>
+            <a
+              href={`${PAGEDUO_URL}/impressum`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline-flex items-center gap-3 rounded-full bg-slate px-7 py-3.5 text-sm font-semibold text-paper transition hover:bg-ink"
+            >
+              Vollständiges Impressum von PageDuo
+              <span aria-hidden className="transition-transform group-hover:translate-x-1">
+                →
+              </span>
+            </a>
           </section>
 
           <section>
             <h2 className="mb-3 font-display text-xl font-medium text-ink">Bildnachweise</h2>
             <p>
-              Die auf dieser Demo-Website verwendeten Fotografien stammen von Unsplash-Fotograf:innen
-              und werden im Rahmen der Unsplash-Lizenz zu Demonstrationszwecken genutzt. Für eine
-              echte Kundenseite sind eigene oder lizenzierte Aufnahmen zu verwenden.
+              Die Fotografien dieser Demo stammen von Unsplash, das Videomaterial von Pexels, beide
+              im Rahmen der jeweiligen kostenfreien Lizenz zu Demonstrationszwecken genutzt.
             </p>
           </section>
         </div>

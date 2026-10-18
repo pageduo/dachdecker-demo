@@ -6,7 +6,7 @@ import { pricingTiers } from "@/lib/content";
 import { img } from "@/lib/images";
 
 export const metadata: Metadata = {
-  title: "Preise | TRAVEDACH Demo",
+  title: "Preise | TRAVEDACH – Demo",
 };
 
 export default function PreisePage() {

@@ -1,3 +1,5 @@
+import { DEMO_SLUG } from "./pageduo";
+
 export const company = {
   name: "TRAVEDACH",
   fullName: "Travedach Bedachungen GmbH",
@@ -7,12 +9,24 @@ export const company = {
   subline:
     "Steildach, Flachdach und energetische Dachsanierung für Privat- und Gewerbeimmobilien in Lübeck und der gesamten Hansestadt-Region.",
   usp: "Meisterbetrieb mit eigener Zimmerei- und Klempnerkolonne, alles aus einer Hand, von der Notreparatur bis zur Komplettsanierung.",
-  phone: "+49 451 288 41 90",
-  phoneHref: "tel:+494512884190",
-  email: "anfrage@travedach-demo.de",
+  /*
+   * Erfunden reicht nicht, erfunden muss auch unerreichbar sein. Die
+   * frueheren Werte (Beckergrube 42, eine Luebecker Rufnummer, eine
+   * .de-Domain) sahen echt aus, weil sie echt aussehen sollten - und genau
+   * deshalb haetten sie irgendwann jemanden getroffen, den es wirklich gibt.
+   *
+   * `.example` ist nach RFC 2606 reserviert und wird nie vergeben. Die
+   * Postleitzahl folgt derselben Regel wie in den uebrigen Demos, nur fuer
+   * die hiesige Leitzone: Luebeck beginnt bei 23552, 23000 liegt darunter
+   * und ist nicht vergeben. Die Rufnummer behaelt die Luebecker Vorwahl,
+   * damit die Seite stimmig bleibt, besteht aber aus Nullen und steht ohne
+   * tel:-Link da, damit sie niemand versehentlich waehlt.
+   */
+  phone: "+49 (0)451 000 000-00",
+  email: `muster@${DEMO_SLUG}.example`,
   address: {
-    street: "Beckergrube 42",
-    zip: "23552",
+    street: "Musterstraße 1",
+    zip: "23000",
     city: "Lübeck",
   },
   hours: [
@@ -300,7 +314,9 @@ export const team = [
 export const rating = {
   value: 4.9,
   count: 138,
-  source: "Google-Rezensionen",
+  /* Die Bewertung ist erfunden wie alles andere auch. Das gehoert an die
+     Stelle, an der sie steht, nicht nur ins Impressum. */
+  source: "Google-Rezensionen (fiktiv)",
 };
 
 export const testimonials = [
@@ -377,10 +393,12 @@ export const jobs = [
 
 export const locations = [
   {
-    name: "Betriebshof Beckergrube",
+    name: "Betriebshof Hauptsitz",
     area: "Lübeck-Altstadt",
     isMain: true,
-    mapQuery: "Beckergrube 42, 23552 Lübeck",
+    /* Nur die Stadt, nicht die erfundene Hausnummer: Ein Kartenlink auf eine
+       Adresse, die es nicht gibt, zeigt auf einen fremden Hauseingang. */
+    mapQuery: "Lübeck",
     description:
       "Unser Hauptsitz mit Meisterbüro, Materiallager und Fuhrpark liegt zwischen den Giebelhäusern der Lübecker Altstadt. Hier laufen alle Projekte zusammen.",
   },

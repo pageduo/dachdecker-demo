@@ -9,7 +9,7 @@ import Testimonials from "@/components/Testimonials";
 import CTABanner from "@/components/CTABanner";
 
 export const metadata: Metadata = {
-  title: "TRAVEDACH Bedachungen: Handwerk mit Höhe | Demo-Website",
+  title: "TRAVEDACH Bedachungen: Handwerk mit Höhe – Demo",
 };
 
 export default function Home() {

@@ -8,7 +8,7 @@ import { company, locations } from "@/lib/content";
 import { img } from "@/lib/images";
 
 export const metadata: Metadata = {
-  title: "Über uns & Kontakt | TRAVEDACH Demo",
+  title: "Über uns & Kontakt | TRAVEDACH – Demo",
 };
 
 export default function KontaktPage() {
@@ -54,9 +54,7 @@ export default function KontaktPage() {
                 <div>
                   <p className="eyebrow mb-2 text-stone">Kontakt</p>
                   <p className="text-sm leading-relaxed text-ink">
-                    <a href={company.phoneHref} className="block hover:text-copper-dark">
-                      {company.phone}
-                    </a>
+                    <span className="block">{company.phone}</span>
                     <a href={`mailto:${company.email}`} className="block hover:text-copper-dark">
                       {company.email}
                     </a>

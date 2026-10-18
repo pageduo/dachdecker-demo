@@ -4,7 +4,7 @@ import StandorteMap from "@/components/StandorteMap";
 import { img } from "@/lib/images";
 
 export const metadata: Metadata = {
-  title: "Standorte | TRAVEDACH Demo",
+  title: "Standorte | TRAVEDACH – Demo",
 };
 
 export default function StandortePage() {

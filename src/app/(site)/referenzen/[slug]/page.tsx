@@ -20,7 +20,7 @@ export async function generateMetadata({
   const { slug } = await params;
   const project = galleryProjects.find((p) => p.slug === slug);
   if (!project) return {};
-  return { title: `${project.title} | TRAVEDACH Referenzen (Demo)` };
+  return { title: `${project.title} | TRAVEDACH Referenzen – Demo` };
 }
 
 export default async function ProjectPage({

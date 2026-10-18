@@ -1,4 +1,5 @@
 import Link from "next/link";
+import DemoAction from "./DemoAction";
 import Reveal from "./Reveal";
 import MagneticButton from "./MagneticButton";
 import { company } from "@/lib/content";
@@ -25,12 +26,12 @@ export default function CTABanner() {
               </Link>
             </MagneticButton>
             <MagneticButton>
-              <a
-                href={company.phoneHref}
+              <DemoAction
+                ariaLabel={`Anrufen: ${company.phone}`}
                 className="rounded-full border border-paper/50 px-7 py-3.5 text-sm font-semibold text-paper transition hover:bg-paper/10"
               >
                 {company.phone}
-              </a>
+              </DemoAction>
             </MagneticButton>
           </div>
         </Reveal>

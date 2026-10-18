@@ -4,7 +4,7 @@ import GalleryGrid from "@/components/GalleryGrid";
 import { img } from "@/lib/images";
 
 export const metadata: Metadata = {
-  title: "Referenzen | TRAVEDACH Demo",
+  title: "Referenzen | TRAVEDACH – Demo",
 };
 
 export default function ReferenzenPage() {

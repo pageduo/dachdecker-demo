@@ -6,7 +6,7 @@ import { company, jobs } from "@/lib/content";
 import { img } from "@/lib/images";
 
 export const metadata: Metadata = {
-  title: "Karriere | TRAVEDACH Demo",
+  title: "Karriere | TRAVEDACH – Demo",
 };
 
 export default function KarrierePage() {

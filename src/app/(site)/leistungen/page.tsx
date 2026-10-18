@@ -8,7 +8,7 @@ import { services } from "@/lib/content";
 import { img } from "@/lib/images";
 
 export const metadata: Metadata = {
-  title: "Leistungen | TRAVEDACH Demo",
+  title: "Leistungen | TRAVEDACH – Demo",
 };
 
 const serviceImages: Record<string, string> = {
