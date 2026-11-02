@@ -170,6 +170,74 @@ erklärung muss den Abruf benennen. Hier wurde nichts umgebaut.
 
 ---
 
+## Sichtprüfung
+
+Am 02.11.2026 nachgeholt: Jedes Motiv wurde als Kontaktbogen geladen und
+angesehen — gesucht wurde nach Wasserzeichen, sichtbaren Logos und Marken,
+erkennbaren echten Personen, erkennbaren realen Orten und nach typischen
+KI-Artefakten.
+
+**Wasserzeichen: keine, in keinem einzigen Motiv.**
+
+**KI-Artefakte: keine, die als solche belastbar wären.** Was auf den
+Kontaktbögen stellenweise flach oder posterisiert wirkt, stammt von deren
+eigener Verkleinerung und JPEG-Kompression, nicht aus den Motiven. Der
+KI-Status bleibt damit das, was er vorher war: **unklar**, weil die
+Unsplash-Fotoseiten nicht erreichbar sind. Es wurde nichts gekennzeichnet.
+
+### Was zu sehen war
+
+**Sieben erkennbare reale Personen als namentliches Team** (`team.torben`,
+`team.kira`, `team.matthes`, `team.selin`, `team.wiebke`, `team.finn`,
+`team.meike`). Bei dreien ist derselbe Schlüssel zusätzlich als
+`testimonialAvatars` vergeben — **dieselben Gesichter treten also gleichzeitig
+als Mitarbeiter und als lobende Kunden auf.** Das ist zusätzlich ein
+Qualitätsfehler, nicht nur ein Rechtsthema.
+
+**Erkennbare Wahrzeichen:** `gallery, locations` zeigt die **Lübecker
+Salzspeicher**, ein weiteres `locations`-Motiv die Speicherreihe an der Trave,
+ein drittes den Lübecker Hafen mit den historischen Giebelhäusern. Ebenerdig
+aufgenommen, insoweit von § 59 UrhG gedeckt.
+
+**Luftaufnahmen über identifizierbaren Privatgrundstücken:** `referenzenHero`,
+`services.solar` und `aerialShowcase` sind Drohnenaufnahmen über Wohnhäusern.
+Für Luftaufnahmen greift die Panoramafreiheit nach BGH-Rechtsprechung **nicht**
+— dasselbe Problem, das beim Hafen-Video der Hauptseite vermerkt ist.
+
+**Die beiden Videos zeigen Nordamerika.** `heroAerial` fliegt über eine
+US-amerikanische Vorstadtstraße (Holzschindelhäuser, Doppelgaragen,
+US-Briefkasten), `transformAerial` senkrecht über ein Haus in Neueindeckung mit
+OSB-Schalung und Bitumenbahnen. Beides sind Luftaufnahmen über erkennbarem
+Privateigentum, und beides passt nicht zu „Lübeck und Umgebung".
+
+**Keine sichtbaren Fremdmarken.**
+
+### Der Befund, der aus der Sichtprüfung hervorgeht
+
+**Erkennbare reale Personen stehen als benanntes Personal dieses erfundenen
+Unternehmens.** Das ist kein Lizenz-, sondern ein Persönlichkeitsrechtsthema:
+§ 22 KUG verlangt für die Verbreitung eines Bildnisses die Einwilligung der
+abgebildeten Person. Die Unsplash-Lizenz erteilt diese Einwilligung **nicht** —
+sie regelt das Urheberrecht des Fotografen, nicht die Rechte der Abgebildeten.
+Unsplash weist selbst darauf hin, dass für Motive mit erkennbaren Personen
+keine Model-Freigabe mitgeliefert wird.
+
+Verschärfend kommt hinzu, dass die Personen hier nicht als Dekoration
+auftauchen, sondern **mit Namen und Funktion** — ein fremdes Gesicht bekommt
+eine berufliche Rolle zugeschrieben, die es nie innehatte.
+
+Nach der Ampel-Ordnung dieses Prüfauftrags bleibt das **🟡** („erkennbare
+Personen ohne geklärte Freigabe"). Nach der strengeren Ordnung des Audits der
+Hauptseite wäre es **🔴** („erkennbare echte Person ohne Einwilligung"). Diese
+Spreizung ist beabsichtigt festgehalten, nicht aufgelöst.
+
+**Empfehlung: Vor jedem echten Kundeneinsatz die Porträts durch eigene oder
+beauftragte Fotografie mit schriftlicher Freigabe ersetzen.** Für eine
+Demo-Vorlage, die als solche gekennzeichnet ist, ist das Risiko geringer, aber
+es verschwindet nicht.
+
+---
+
 ## KI-Kennzeichnung
 
 **Es wurde keine gesetzt.** Art. 50 Abs. 4 EU AI Act verlangt die Offenlegung bei
@@ -192,6 +260,7 @@ Lizenz gesondert zu prüfen.
 
 | Was | Wie viele | Warum offen |
 |---|---|---|
+| **Freigabe der abgebildeten Personen** (§ 22 KUG) | 7 | sieben Team-Porträts, drei davon zugleich als Testimonial — die Unsplash-Lizenz erteilt keine Model-Freigabe |
 | KI-Status der Unsplash-Motive | 44 | Fotoseite nicht erreichbar |
 | Lizenzart (frei oder Unsplash+) | 44 | dito |
 
